@@ -21,14 +21,17 @@ public class HighScores {
         String visitorScoreStr = scoreStrings[1];
 
         // Score team names
+
         String homeTeam = teams[0];
         String visitorTeam = teams[1];
 
         // Convert them from string to int
+
         int homeScore = Integer.parseInt(homeScoreStr);
         int visitorScore = Integer.parseInt(visitorScoreStr);
 
         // Finding out the winner or  if it's a tie
+
         if (homeScore > visitorScore) {
             System.out.println("Winner: " + homeTeam);
         } else if (visitorScore > homeScore) {
